@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "lib": ["es6"],
+    "outDir": "dist"
+  },
+  "include": ["src/index.ts"]
+}
