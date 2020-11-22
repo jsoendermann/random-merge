@@ -1,4 +1,4 @@
-export default function*<T>(arrays: T[][]): IterableIterator<T> {
+export default function* <T>(arrays: T[][]): IterableIterator<T> {
   const arraysCopy = arrays
     .filter(array => array.length > 0)
     .map(array => [...array])
